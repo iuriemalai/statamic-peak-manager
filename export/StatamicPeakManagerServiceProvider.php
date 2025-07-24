@@ -2,7 +2,7 @@
 
 namespace IurieMalai\StatamicPeakManager;
 
-use IurieMalai\StatamicPeakManager\App\Console\Commands\StatamicPeakManagerCommand;
+use IurieMalai\StatamicPeakManager\Commands\StatamicPeakManagerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

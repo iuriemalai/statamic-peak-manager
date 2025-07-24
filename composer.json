@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "IurieMalai\\StatamicPeakManager\\": "export/app/"
+            "IurieMalai\\StatamicPeakManager\\": "export/"
         }
     },
     "autoload-dev": {
