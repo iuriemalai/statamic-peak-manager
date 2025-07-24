@@ -17,9 +17,9 @@ class StatamicPeakManagerServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('statamic-peak-manager')
-            //->hasConfigFile()
-            //->hasViews()
-            //->hasMigration('create_statamic_peak_manager_table')
+            // ->hasConfigFile()
+            // ->hasViews()
+            // ->hasMigration('create_statamic_peak_manager_table')
             ->hasCommand(StatamicPeakManagerCommand::class);
     }
 }
