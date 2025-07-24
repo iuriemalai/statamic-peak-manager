@@ -3,8 +3,8 @@
 namespace IurieMalai\StatamicPeakManager\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use IurieMalai\StatamicPeakManager\StatamicPeakManagerServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
