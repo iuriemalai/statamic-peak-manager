@@ -3,10 +3,13 @@
 namespace IurieMalai\StatamicPeakManager\App\Console\Commands;
 
 use Illuminate\Console\Command;
+use Statamic\Console\RunsInPlease;
 
 class StatamicPeakManagerCommand extends Command
 {
-    public $signature = 'statamic-peak-manager';
+    use RunsInPlease;
+
+    public $signature = 'statamic:statamic-peak-manager';
 
     public $description = 'My command';
 

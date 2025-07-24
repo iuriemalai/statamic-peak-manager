@@ -1,6 +1,6 @@
 <?php
 
-namespace Studio1902\StatamicPeak\App\Console\Commands\PostInstall;
+namespace IurieMalai\StatamicPeakManager\App\Console\Commands\PostInstall;
 
 use Illuminate\Console\Command;
 use LaravelLang\Locales\Facades\Locales;

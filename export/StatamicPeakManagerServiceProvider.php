@@ -3,6 +3,7 @@
 namespace IurieMalai\StatamicPeakManager;
 
 use IurieMalai\StatamicPeakManager\App\Console\Commands\StatamicPeakManagerCommand;
+use IurieMalai\StatamicPeakManager\App\Console\Commands\PostInstall\CollectAvailableLangLocales;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -20,6 +21,9 @@ class StatamicPeakManagerServiceProvider extends PackageServiceProvider
             // ->hasConfigFile()
             // ->hasViews()
             // ->hasMigration('create_statamic_peak_manager_table')
-            ->hasCommand(StatamicPeakManagerCommand::class);
+            ->hasCommands([
+                StatamicPeakManagerCommand::class,
+                CollectAvailableLangLocales::class,
+            ]);
     }
 }
