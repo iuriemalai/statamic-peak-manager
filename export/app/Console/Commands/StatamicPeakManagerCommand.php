@@ -1,6 +1,6 @@
 <?php
 
-namespace IurieMalai\StatamicPeakManager\Commands;
+namespace IurieMalai\StatamicPeakManager\Console\Commands;
 
 use Illuminate\Console\Command;
 
